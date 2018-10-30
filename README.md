@@ -1,4 +1,4 @@
-# Shot Boundery Detection by VGG16 vetcor Cloustering
+# Image Clustering by Complex Network Representation
 
 Here we gona detect some Scenes from random video and choose an frame to represent it's content.
 
@@ -14,14 +14,22 @@ Here we gona detect some Scenes from random video and choose an frame to represe
 
 * VGG16
 
-## 3. Cluster frames by feeature arrays into scene classes...
+## 3 Represent into complex networks...
 
-* Kmeans
+* nodes by image name
+
+* edges weights by cosine similarity
+
+## 4. Cluster frames into scenes by community detection...
+
+* Louvain
 
 ## 4. Find the most frequently shown scene class...
 
 * Just Counting
 
-## 5. Choose the middle frame from main scene class...
+## 5. Choose the by mainframe from the most frequent scene!
 
-![Chosen frame](data/image_660.jpg)
+* degree centrality
+
+![Chosen frame](data/image_1232)
