@@ -1,6 +1,6 @@
 # Image Clustering by Complex Network Representation
 
-Here we gona detect some Scenes from random video and choose an frame to represent it's content.
+Here we gona detect some Scenes from random video and choose a frame to represent it's content.
 
 ![from you tube](youtube_BrooklynNineNine.jpg)
 
@@ -10,7 +10,7 @@ Here we gona detect some Scenes from random video and choose an frame to represe
 
 * OpenCV
 
-## 2. Extract fieatures from frames...
+## 2. Extract features from frames...
 
 * VGG16
 
@@ -28,7 +28,7 @@ Here we gona detect some Scenes from random video and choose an frame to represe
 
 * Just Counting
 
-## 5. Choose the by mainframe from the most frequent scene!
+## 5. Choose them by mainframe from the most frequent scene!
 
 * degree centrality
 
